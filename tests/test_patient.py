@@ -5,6 +5,6 @@ def test_create_patient():
     from inflammation.models import Patient
 
     name = 'Alice'
-    p = Patient(name=name)
+    p = Patient(name = name)
 
     assert p.name == name
